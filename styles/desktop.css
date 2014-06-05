@@ -1,0 +1,67 @@
+html {
+	height: 100%;
+	border: 1px black solid;
+}
+
+body {
+	height: 100%;
+	border: 2px black dashed;
+}
+
+#container {
+	border: 1px dashed red;
+}
+
+#topbar {
+	border: 1px solid green;
+}
+
+#introtext {
+	position: relative;
+	margin-top: 40px;
+	width: 900px;
+	border: 2px dashed purple;
+}
+
+#searchbox {
+	height: 600px;
+	width: 600px;
+	position: relative;
+	left: 400px;
+	margin-top: 20px;
+	border: 3px solid black;
+}
+
+#mddrop form select {
+	width: 400px;
+	margin-bottom: 50px;
+}
+
+#insdrop form select {
+	width: 400px;
+	margin-bottom: 50px;
+}
+
+#areadrop p {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#subbutt {
+	border: 3px solid blue;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 300px;
+	right: 250px;
+}
+
+#bottombar {
+	width: 100%;
+	border: 2px solid green;
+	margin-top: 370px;
+}
+
+#bottombar li {
+	display: inline;
+}

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PhysFind</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<!-- Media query for narrow browser width -->
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="styles/mobile.css" />
+
+	<!-- Media query for smartphones -->
+	<link rel="stylesheet" media="only screen and (max-device-width: 568px)" href="styles/mobile.css" />
+
+
+	<!-- Media query for medium browser width -->
+	<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="styles/tablet.css" />
+
+	<!-- Media query for tablets -->
+	<link rel="stylesheet" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)" href="styles/tablet.css" />
+
+	<!-- Media query for full browser width -->
+	<link rel="stylesheet" media="only screen and (min-width: 961px)" href="styles/desktop.css" />
+
+	<!-- Prevents smartphones from scaling pages down -->
+	<meta name="viewport" content="initial-scale=1">
+</head>
+<body>
+	<div id="container">
+		<div id="topbar">
+			<img src="" alt=""> <!-- add logo -->
+			<h1>PhysFind</h1>
+		</div>
+		<div id="introtext">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, impedit, quae voluptas non libero dolores similique quibusdam accusantium odit fugiat culpa saepe repudiandae ipsa illum velit dolorem rerum dolorum minima.</p>
+		</div>
+		<div id="searchbox">
+			<div id="mddrop">
+				<h3>Choose Physician specialty</h3>
+				<form>
+					<select name=choose>
+					<option name=one value=one>Select...</option>
+					<option name=one value=one>Allergy</option>
+					<option name=two value=two>Cardiology</option>
+					<option name=three value=three>ENT</option>
+					<option name=three value=three>OB/GYN</option>
+					<option name=three value=three>Oncology</option>
+					<option name=three value=three>Primary Care</option>
+					<option name=three value=three>Psychiatry</option>
+					<option name=three value=three>Pulmonology</option>
+					</select>
+				</form>
+			</div>
+			<div id="insdrop">
+				<h3>Choose Insurance coverage</h3>
+				<form>
+					<select name=choose>
+					<option name=one value=one>Select...</option>
+					<option name=one value=one>Aetna</option>
+					<option name=two value=two>Amerigroup</option>
+					<option name=three value=three>BCBS Western NY</option>
+					<option name=three value=three>Cigna</option>
+					<option name=three value=three>Empire Blue Cross</option>
+					<option name=three value=three>Metro Plus</option>
+					<option name=three value=three>United Health Care</option>
+					<option name=three value=three>Ventegra</option>
+					</select>
+				</form>
+			</div>
+			<div id="areadrop">
+				<p>Located within</p>
+				<select name=choose>
+					<option name=one value=one>Select...</option>
+					<option name=one value=one>0.5</option>
+					<option name=two value=two>1</option>
+					<option name=three value=three>2</option>
+					<option name=three value=three>5</option>
+					<option name=three value=three>10</option>
+				</select>
+				<p>miles of</p>	
+				<input type = "search" name ="search" placeholder = "Enter zip code here"
+			</div>
+			<a id="subbutt" href="">Find a Doctor!</a>
+		</div>
+		<div id="bottombar">
+			<ul>
+				<li>FAQ</li>
+				<li>Contact Us</li>
+				<li>Logo</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
