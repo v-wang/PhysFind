@@ -10,6 +10,7 @@ body {
 }
 
 #container {
+	height: 100%;
 	border: 1px dashed red;
 }
 
@@ -72,20 +73,20 @@ body {
 }
 
 #bottombar li {
-	display: inline;
+	display: inline-block;
 }
-<<<<<<< HEAD
+
 /* END INDEX */
 
 
 /* PHYSPROFILE */
-#centersec {
+#centersection {
+	height: 600px;
 	width: 700px;
-	height: 700px;
-	border: 2px solid purple;
+	border: solid 1px #000000;
 	position: relative;
-	left: 400px;
-	}
+	left: 350px;	
+}
 
 #map {
 	width:400px;
@@ -116,9 +117,9 @@ body {
 
 
 /* END PHYSPROFILE */
-=======
 
-/* Footer Links*/
+
+/* Footer Links */
 
 nav ul ul{
   display: none;
@@ -131,7 +132,7 @@ nav ul li:hover ul{
 }
 
 nav ul{
-  display: inline-table;
+  display:inline-table;
   list-style: none;
 }
 
@@ -191,4 +192,3 @@ nav ul{
     display: inline-block;
   }
 }
->>>>>>> 5459f54a4b51fab81d739b478cc42b934b8e7a36
