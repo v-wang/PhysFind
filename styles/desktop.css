@@ -1,3 +1,4 @@
+/* UNIVERSAL */
 html {
 	height: 100%;
 	border: 1px black solid;
@@ -15,7 +16,10 @@ body {
 #topbar {
 	border: 1px solid green;
 }
+/* END UNIVERSAL */
 
+
+/* INDEX */
 #introtext {
 	position: relative;
 	margin-top: 40px;
@@ -65,3 +69,44 @@ body {
 #bottombar li {
 	display: inline;
 }
+/* END INDEX */
+
+
+/* PHYSPROFILE */
+#centersec {
+	width: 700px;
+	height: 700px;
+	border: 2px solid purple;
+	position: relative;
+	left: 400px;
+	}
+
+#map {
+	width:400px;
+	height: 400px;
+	border:1px dashed black;
+	float: left;
+}	
+
+#physcontact {
+	border: 2px solid red;
+	width: 290px;
+	height: 400px;
+	float: right;
+}
+
+#physsummary {
+	width: 700px;
+	float: right;
+	border: 1px dashed green;
+}
+
+#physsummary ul {
+	width: 320px;
+	float: right;
+	list-style: circle;
+	border:2px solid black;
+}
+
+
+/* END PHYSPROFILE */
