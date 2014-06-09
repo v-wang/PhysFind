@@ -1,29 +1,145 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 	<meta charset="UTF-8">
 	<title>PhysFind</title>
+
+
+<!-- CSS RESET -->
 	<link rel="stylesheet" href="styles/reset.css">
+
+<!-- BEGIN CSS MEDIA QUERIES -->
 	<!-- Media query for narrow browser width -->
-	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="styles/mobile.css" />
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="styles/mobile.css">
 
 	<!-- Media query for smartphones -->
-	<link rel="stylesheet" media="only screen and (max-device-width: 568px)" href="styles/mobile.css" />
+	<link rel="stylesheet" media="only screen and (max-device-width: 568px)" href="styles/mobile.css">
 
 
 	<!-- Media query for medium browser width -->
-	<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="styles/tablet.css" />
+	<link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="styles/tablet.css">
 
 	<!-- Media query for tablets -->
-	<link rel="stylesheet" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)" href="styles/tablet.css" />
+	<link rel="stylesheet" media="only screen and (min-device-width : 768px) and (max-device-width : 1024px)" href="styles/tablet.css">
 
 	<!-- Media query for full browser width -->
-	<link rel="stylesheet" media="only screen and (min-width: 961px)" href="styles/desktop.css" />
+	<link rel="stylesheet" media="only screen and (min-width: 961px)" href="styles/results.css">
 
 	<!-- Prevents smartphones from scaling pages down -->
 	<meta name="viewport" content="initial-scale=1">
+<!-- END CSS MEDIA QUERIES -->
 </head>
+
+<!-- BEGIN SITE CONTENT -->
 <body>
-	<p>results</p>
-</body>
-</html>
+<!-- BEGIN MASTER CONTAINER -->
+<!-- ** THIS CONTAINS THE WHOLE DOCUMENTS ** -->
+<div id="mastContainer">
+
+<!-- NAVIGATION BAR -->
+		<header id="header">
+
+			<div id="navBar">
+
+				<ul id="navBarLinks">
+					<a class="navBarLinks" href="http://example.com/about.html"> <li> ABOUT </li> </a>
+
+					<a class="navBarLinks" href="http://example.com/insurance.html"> <li> INSURANCE </li> </a>
+
+					<a class="navBarLinks" href="http://example.com/insurance.html"> <li> LOCATION </li> </a>
+				</ul>
+
+			</div>
+
+		</header>
+
+		<!-- NAVIGATION BAR W/ USER INPUTS -->
+		<div id="navBarInputs">
+
+			<!-- ZIP CODE OR BOROUGH -->
+			<form>
+				<!-- INPUT BOX -->
+				<input id="inputBox" size="35" maxlength="13" type="text" name="inputbox" required="required" placeholder="ENTER ZIP CODE OR BOROUGH">
+				<!-- ZIP CODE OR BOROUGH SUBMIT BUTTON -->
+				<input type="submit" value="submit">
+			</form>
+
+		</div>
+
+		<!--TABLE RESULTS--> 
+		<div id="quickFormContainer">
+			
+
+		<table width="600px" style="
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+">
+            
+                <tbody><tr class="head">
+
+                    <th>Care Provider</th>
+                    <th>Location</th>    
+                </tr>
+                <tr class="head">
+                    <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                    <td style="width:400px">DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td>     
+                </tr>
+                
+                <tr class="even">
+                    <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                    <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td> 
+                </tr>
+                <tr>
+                   <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                   <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td> 
+                </tr>
+                <tr class="even">
+                    <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                    <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td> 
+                </tr>
+                <tr>
+                   <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                   <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td>  
+                </tr>
+                 <tr class="even">
+                    <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                    <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td> 
+                </tr>
+                <tr>
+                   <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                   <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td>  
+                </tr>
+                 <tr class="even">
+                    <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                    <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td> 
+                </tr>
+                <tr>
+                   <td> Edward Bernaski MD <br> GENDER: Male <br> SPECIALITY: Cardovascular Disease, Internal Medicine, Cardiology  </td>
+                   <td>DISTANCE: 0.0 Miles <br> 275 7th Avenue 4th FL, Union Health Center New York, NY 10001 A60 </td>  
+                </tr>
+         </tbody></table>
+		
+		</div>	
+		<footer>
+			<div id="bottombar">
+			<ul>
+				<li>FAQ</li>
+				<li>Contact Us</li>
+				<li>Logo</li>
+			</ul>
+		</div>
+		</footer>
+
+
+	
+
+<!-- 
+		<div id="introtext">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, impedit, quae voluptas non libero dolores similique quibusdam accusantium odit fugiat culpa saepe repudiandae ipsa illum velit dolorem rerum dolorum minima.</p>
+		</div>
+		 -->
+</div> 
+<!-- END MASTER CONTAINER -->
+
+
+</body></html>

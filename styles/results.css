@@ -1,0 +1,234 @@
+/* INDEX PAGE STYLING */
+
+html {
+	height: 1000px;
+	border: 1px black solid;
+}
+
+body {
+	height: 100%;
+	border: 2px black dashed;
+	background-image: 
+}
+
+/* MASTER CONTAINER WHICH CONTAINS THE WHOLE DOCUMENT */
+#mastContainer {
+	border: 1px dashed red;
+}
+
+/* HEADER */
+#header {
+	background-color: #ffffff;
+
+	height: 200px;
+	width: 100%;
+}
+
+/* NAVIGATION BAR */
+#navBar {
+	
+
+	float: right;
+
+	margin-top: 100px;
+	margin-right: 60px;
+	margin-bottom: ;
+	margin-left: ;
+}
+
+
+/* NAVIGATION BAR LINKS */
+.navBarLinks {
+	text-decoration: none;
+
+	color: #000000;
+
+	font-family: Arial black;
+	font-weight: bold;
+	font-size: 20pt; 
+
+	padding-top: ;
+	padding-right: 25px;
+	padding-bottom: ;
+	padding-left: 25px;
+}
+
+li {
+	display: inline;
+}
+
+/* MAP AND USER INPUT SEARCH */
+#navBarInputs {
+	background-color: #333333;
+
+	width: 100%;
+	height: 60px;
+
+	margin-top: ;
+	margin-right: ;
+	margin-bottom: ;
+	margin-left: ;
+}
+
+#inputBox {
+	color: #888888;
+	height: 30px;
+	width: ;
+
+	font-size: 11pt;
+
+	margin-top: 10px;
+	margin-right: ;
+	margin-bottom: ;
+	margin-left: 800px;
+}
+
+#quickFormContainer {
+	background-image: url(../images/doctorPatient.png);
+	
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+	
+}
+
+#quickFormBackground {
+	background-image: url(images/doctorPatient.png);
+
+	position: absolute;
+	padding-left: 400px;
+
+	height: 400px;
+	width: 100%;
+}
+
+/* TableResults!*/
+
+body{
+
+	font-family: Arial,Verdana,sans-serif;
+	font-size: 90%;
+	color:#666666 ;
+	background-color: #f8f8f8;
+
+}
+
+}
+table {
+	border-spacing: 0px;
+	margin-left: 500px;
+	
+	
+
+}
+	
+
+th, td {
+	padding: 5px 30px 5px 10px;
+	border-spacing: 0%;
+	font-size: 90%;
+	margin:0px;
+}
+
+th, td {
+
+	text-align: left;
+	
+
+	background-color: #ACD9FC;
+	border-top: 1px solid #f1f8fe;
+	border-bottom: 1px solid #cbd2d8;
+	border-right: 1px solid #749abe;
+
+
+}
+
+tr.head th { 
+
+color: #ffffff;
+background-color:#3B8BA6;
+border-bottom: 2px solid #547ca0;
+border-right: 1px solid #749abe;
+border-top: 1px solid #90b4d6;
+text-align: center;
+text-shadow:  -1px -1px 1px #ffffff;
+letter-spacing: 0.15em;
+}
+
+td{
+
+	text-shadow:1px 1px 1px #ffffff;
+
+}
+tr.even td, tr.even th {
+background-color: #B6EDFF;
+}
+tr.head th:first-child {
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-top-left:5px;
+    border-top-left-radius:5px;
+
+}
+tr.head th:last-child{
+	 -webkit-border-top-right-radius:5px;
+    -moz-border-radius-top-right:5px;
+    border-top-right-radius:5px;
+
+}
+
+#bottombar {
+	text-align: center;
+	width: 100%;
+	border: 2px solid green;
+	
+	height: 50px;
+}
+
+/*
+#introtext {
+	position: relative;
+	margin-top: 40px;
+	width: 900px;
+	border: 2px dashed purple;
+}
+
+#searchbox {
+	height: 600px;
+	width: 600px;
+	position: relative;
+	left: 400px;
+	margin-top: 20px;
+	border: 3px solid black;
+}
+
+#mddrop form select {
+	width: 400px;
+	margin-bottom: 50px;
+}
+
+#insdrop form select {
+	width: 400px;
+	margin-bottom: 50px;
+}
+
+#areadrop p {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+#subbutt {
+	border: 3px solid blue;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 300px;
+	right: 250px;
+
+
+#bottombar li {
+	display: inline;
+}
+
+*/
